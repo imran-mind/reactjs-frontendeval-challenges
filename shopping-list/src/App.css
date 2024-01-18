@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+
+input{
+  width: 230px;
+  height: 40px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+.shopping-list{
+  width: 230px;
+  margin: 10px auto;
+  height: 150px;
+  background-color: lightgray;
+  overflow-y: auto;
+}
+
+.product{
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+.product:hover{
+  background-color: aquamarine;
+}
+
+.bucket{
+  width: 300px;
+  margin: 50px auto;
+}
+.shopping-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: lightseagreen;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button{
+  background-color:lightseagreen ;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+button:hover{
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.strik{
+  text-decoration: line-through;
+  color: lightgray;
+}
