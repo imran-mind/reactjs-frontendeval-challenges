@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.card{
+  height: 30px;
+  width: 30px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.show{
+  font-size: 30px;
+}
+.hide{
+  font-size: 0;
+}
+.remove{
+  visibility: hidden;
+}
+
+button{
+  width: 140px;
+  height: 40px;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 20px;
+  
+}
