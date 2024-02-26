@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.box{
+  width: 70px;
+  height: 70px;
+  background-color: lightgray;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.box:hover{
+  background-color: white;
+}
+.game-info{
+  margin-top: 40px;
+}
