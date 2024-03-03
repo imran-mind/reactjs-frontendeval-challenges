@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.cards{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, auto-fill);
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+.card:hover{
+  background-color: lightgray;
+}
+.company-info{
+  font-size: 20px;
+  font-weight: bold;
+}
+.hiring-info{
+  margin: 20px 0;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: #FFF;
+  font-size: 20px;
+  cursor: pointer;
+}
