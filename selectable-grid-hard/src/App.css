@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+.grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+.cell{
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+}
+
+.selected-cell{
+  background-color: lightblue;
+  border: 1px solid black;
+}
