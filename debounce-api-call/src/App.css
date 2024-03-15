@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.list{
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  font-size: 20px;
+  margin: 10px auto;
+  text-align: left;
+  padding: 10px;
+  overflow-y: auto;
+}
