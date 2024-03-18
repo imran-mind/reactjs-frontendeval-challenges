@@ -22,7 +22,7 @@ function App() {
             >
               <span
                 className={//5<=5
-                  `star ${num <= ((rating && hover) || hover)
+                  `star ${num <= (rating || hover)
                     ? 'on' : 'off'
                   }`
                 }

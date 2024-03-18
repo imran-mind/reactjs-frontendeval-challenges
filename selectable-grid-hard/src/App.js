@@ -39,11 +39,20 @@ function App() {
   }
 
   const fillColor = (startPos, endPos) => {
-    const [startRow, startCol] = startPos;
-    const [endRow, endCol] = endPos;
+
+    let [startRow, startCol] = startPos;
+    let [endRow, endCol] = endPos;
+    console.log('startPos ', startPos);
+    console.log('endPos ', endPos);
+
+    const rowStart = Math.min(startRow, endRow); // 5
+    const rowEnd = Math.max(startRow, endRow); // 7
+    const colStart = Math.min(startCol, endCol); // 5
+    const colEnd = Math.max(startCol, endCol); // 7
+
     const selectedGrid = [];
-    for (let i = startRow; i <= endRow; i++) {// sub mat rows travers
-      for (let j = startCol; j <= endCol; j++) {//sub mat cols travers
+    for (let i = rowStart; i <= rowEnd; i++) {// sub mat rows travers
+      for (let j = colStart; j <= colEnd; j++) {//sub mat cols travers
         selectedGrid.push([i, j].join(''));
       }
     }
