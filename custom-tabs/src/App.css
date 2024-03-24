@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+button{
+  margin: 5px;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected{
+  background-color: black;
+  color: white;
+}
