@@ -1,0 +1,18 @@
+.App {
+ text-align: left;
+ margin-left: 50px;
+ display: flex;
+ flex-direction: column;
+ font-size: 20px;
+
+}
+
+button{
+  background-color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.expand{
+  transform: rotate(90deg);
+}
