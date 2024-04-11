@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  height: 30px;
+  background-color: lightblue;
+  margin: 10px  0px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checked{
+  background-color: black;
+  color: white;
+}
+
+.box{
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.actions{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
