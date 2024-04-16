@@ -1,0 +1,41 @@
+.App {
+ display: flex;
+ justify-self: center;
+}
+
+.container{
+  margin: 30px auto;
+  width: 300px;
+}
+
+.form-item{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+input{
+  margin-top: 7px;
+  padding: 10px;
+  font-size: 20px;
+}
+button{
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+.error{
+  color: red;
+}
+
+.error-border{
+  border: 1px solid red;
+}
+label{
+  font-weight: bold;
+}
