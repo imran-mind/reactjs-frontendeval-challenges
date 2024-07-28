@@ -33,10 +33,11 @@ function App() {
 
   const handleInputChange = (e, index) => {
     const val = e.target.value;
-    console.log(val, index);
+    console.log(val, !Number(val), index);
     if (!Number(val))
       return;
 
+    console.log('index: ', index);
     if (index < inputs.length - 1) { // 1
       refs[index + 1].current.focus();
     }

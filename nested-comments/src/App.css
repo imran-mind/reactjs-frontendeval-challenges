@@ -1,0 +1,31 @@
+.App {
+  margin: 10px;
+}
+.input-box{
+  height: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+.comment-button{
+  /* height: 30px; */
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+}
+.btn{
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+.comment-line{
+  margin: 5px;
+}

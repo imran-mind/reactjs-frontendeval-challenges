@@ -33,7 +33,7 @@ function App() {
     password: {
       id: 'password',
       label: 'Password',
-      type: 'text',
+      type: 'password',
       placeholder: 'Password...',
       value: '',
       isError: false,
@@ -42,7 +42,7 @@ function App() {
     confirmPassword: {
       id: 'confirmPassword',
       label: 'Confirm Password',
-      type: 'text',
+      type: 'password',
       placeholder: 'Confirm Password...',
       value: '',
       isError: false,
